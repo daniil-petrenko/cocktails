@@ -20,7 +20,7 @@ const Navbar = () => {
    }, []);
 
    return (
-      <nav>
+      <nav className="px-4">
          <div>
             <a className="flex items-center gap-2" href="#home">
                <img src="/images/logo.png" alt="logo" />
